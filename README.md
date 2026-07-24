@@ -4,7 +4,7 @@ A complete implementation of a Binary Search Tree (BST) data structure in Java w
 
 This project demonstrates object-oriented programming principles including inheritance, interfaces, generics, and data structure design patterns. Built for CPRG 304 (Object-Oriented Programming III) with comprehensive unit tests.
 
-## 🎯 Features
+## Features
 
 - **Generic Binary Search Tree** - Type-safe implementation supporting any Comparable element
 - **Complete BST Operations** - Add, search, remove min/max, and tree traversal
@@ -14,14 +14,14 @@ This project demonstrates object-oriented programming principles including inher
 - **Comprehensive Tests** - Unit tests for all major operations
 - **Object Serialization** - Serialize and persist tree data
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Java 8+** - Core language
 - **JUnit 4** - Unit testing framework
 - **Generic Types** - Type-safe implementations
 - **Collections API** - ArrayList for traversals and iteration
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -37,7 +37,7 @@ src/
         └── BSTreeTest.java   # Comprehensive unit tests
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -66,7 +66,7 @@ javac -d bin src/**/*.java
 java -cp bin implementations.BSTree
 ```
 
-## 📖 Core Classes
+## Core Classes
 
 ### BSTreeNode<E>
 Represents a single node in the binary search tree.
@@ -115,7 +115,7 @@ while (iter.hasNext()) {
 ### BSTreeADT<E> Interface
 Defines the contract for BST implementations.
 
-## 🧪 Testing
+## Testing
 
 Run the comprehensive unit test suite:
 
@@ -138,7 +138,7 @@ The `BSTreeTest` class includes tests for:
 - Edge cases (empty tree, single node)
 - Height and size calculations
 
-## 💡 Usage Examples
+## Usage Examples
 
 ### Basic Operations
 
@@ -202,7 +202,7 @@ doubleTree.add(2.71);
 doubleTree.add(1.41);
 ```
 
-## 🔑 Key Concepts Demonstrated
+## Key Concepts Demonstrated
 
 - **Generics** - Type-safe, reusable data structures
 - **Interfaces** - Define contracts and abstract methods
@@ -212,7 +212,7 @@ doubleTree.add(1.41);
 - **Serialization** - Persistent data storage
 - **Unit Testing** - Comprehensive test coverage
 
-## 🚀 Algorithm Complexity
+## Algorithm Complexity
 
 | Operation | Average | Worst Case |
 |-----------|---------|------------|
@@ -222,14 +222,14 @@ doubleTree.add(1.41);
 | Height | O(n) | O(n) |
 | Traversal | O(n) | O(n) |
 
-## 📚 Learning Resources
+## Learning Resources
 
 - **Data Structures**: Understanding tree traversal and insertion algorithms
 - **OOP Principles**: Generic types, interfaces, and inheritance
 - **Java Collections**: Iterator pattern and ArrayList usage
 - **Testing**: JUnit framework and test-driven development
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/improvement`)
@@ -237,16 +237,16 @@ doubleTree.add(1.41);
 4. Push to branch (`git push origin feature/improvement`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is open source and available under the MIT License.
 
-## 👤 Author
+## Author
 
 **Devyn Weir**
 - GitHub: [@webdevyn](https://github.com/webdevyn)
 
-## 📞 Support
+## Support
 
 For issues, questions, or suggestions, please open a GitHub Issue.
 
@@ -254,4 +254,4 @@ For issues, questions, or suggestions, please open a GitHub Issue.
 
 **Course**: CPRG 304 - Object-Oriented Programming III  
 **Last Updated**: July 16, 2026  
-**Status**: Complete ✅
+**Status**: Complete
